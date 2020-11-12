@@ -5,6 +5,7 @@ import {
     Route,
     Link
   } from "react-router-dom";
+import styles from './landPageHeader.module.css';
 import HeaderTop from './landPageComponent/headerTop';
 import HeaderContent from './landPageComponent/headerContent';
 
@@ -14,8 +15,10 @@ import HeaderContent from './landPageComponent/headerContent';
     <Router>
         <Switch>
             <Route>
-                <HeaderTop />
-                <HeaderContent />
+                <div className={styles.backgroundHeader}>
+                  <HeaderTop />
+                  <HeaderContent />
+                </div>
             </Route>
         </Switch>
     </Router>
