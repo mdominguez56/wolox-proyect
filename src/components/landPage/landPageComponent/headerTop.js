@@ -11,11 +11,11 @@ import logo from '../../../assets/logo_full_color.svg'
 function HeaderTop() {
     return (
         <div className={styles.container}>
-          <img src={logo} alt="wolox-logo" />
+          <img src={logo} alt="wolox-logo" className={styles.logoWolox}/>
           <nav className={styles.navLink}>
             <Link to="/">Inicio</Link>
             <Link to="/">Beneficios</Link>
-            <Link to="/">Login</Link>
+            <Link to="/">Login</Link> 
           </nav>
         </div>
   );

@@ -1,5 +1,14 @@
 .headerContentConteiner{
     display: flex;
     text-align: center;
+    align-items: center;
     justify-content: space-between;
+    margin-top: 20px;
+}
+.HeroImage{
+    width: 40vw;
+    padding-right: 10vw;
+}
+.headerContentText{
+    text-align: left;
 }
