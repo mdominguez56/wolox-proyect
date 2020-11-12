@@ -1,4 +1,10 @@
 .container{
     display: flex;
-    justify-content: space-around;
+    text-align: center;
+    justify-content: space-between;
+}
+
+img{
+    width: 106px;
+    height: 122px;
 }

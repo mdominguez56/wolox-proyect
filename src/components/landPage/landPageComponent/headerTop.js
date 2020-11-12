@@ -10,7 +10,7 @@ import styles from './headerTop.module.css'
 function HeaderTop() {
     return (
         <div className={styles.container}>
-          <img src="../../../assets/assets/logo_full_color.svg" alt="wolox-logo" />
+          <img src='' alt="" />
           <nav>
             <Link to="/">Inicio</Link>
             <Link to="/">Beneficios</Link>
