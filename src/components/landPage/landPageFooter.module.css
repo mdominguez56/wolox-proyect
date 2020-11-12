@@ -1,6 +1,6 @@
 .backgroundFooter{
     padding: 20vw;
-    background-color: blue;
+    background: url("../../assets/assets/Backgrounds/Bg_Footer.png") no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden; 
