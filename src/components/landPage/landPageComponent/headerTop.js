@@ -5,10 +5,11 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import styles from './headerTop.module.css'
 
 function HeaderTop() {
     return (
-        <div>
+        <div className={styles.container}>
           <img src="../../../assets/assets/logo_full_color.svg" alt="wolox-logo" />
           <nav>
             <Link to="/">Inicio</Link>

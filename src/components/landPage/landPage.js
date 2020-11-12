@@ -8,15 +8,18 @@ import {
 import LandPageFooter from './landPageFooter';
 import LandPageHeader from './landPageHeader';
 import LandPageMain from './landPageMain'
+//import styles from './landPage.module.css'
 
 function landPage() {
     return (
     <Router>
         <Switch>
             <Route>
-                <LandPageHeader />
-                <LandPageMain />
-                <LandPageFooter />
+                <div>
+                    <LandPageHeader />
+                    <LandPageMain />
+                    <LandPageFooter />
+                </div>
             </Route>
         </Switch>
     </Router>
