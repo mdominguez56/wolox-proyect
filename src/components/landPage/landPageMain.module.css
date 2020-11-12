@@ -1,6 +1,4 @@
-.backgroundMain{
-    background-color: red;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden; 
+.MainContent{
+    display: flex;
+    justify-content: space-between;
 }

@@ -16,7 +16,7 @@ import MainTop from './landPageComponent/mainTop';
       <Router>
       <Switch>
           <Route>
-              <div className={styles.backgroundMain}>
+              <div className={styles.MainContent}>
                 <MainTop />
                 <MainBottom />
               </div>

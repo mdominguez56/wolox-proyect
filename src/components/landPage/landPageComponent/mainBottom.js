@@ -1,8 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function MainBottom() {
     return (
-        <div>Main Bottom in Land Page</div>
+        <div>
+          Main Botton
+        </div>
         );
   }
 
