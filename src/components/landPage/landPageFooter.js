@@ -5,11 +5,12 @@ import {
     Route,
     Link
   } from "react-router-dom";
+  import styles from './landPageFooter.module.css'
 
 
   function LandPageFooter() {
     return (
-        <div>LAND PAGE FOOTER</div>
+        <div className={styles.backgroundFooter}>LAND PAGE FOOTER</div>
         );
   }
 

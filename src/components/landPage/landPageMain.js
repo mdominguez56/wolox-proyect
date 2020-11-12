@@ -5,8 +5,10 @@ import {
     Route,
     Link
   } from "react-router-dom";
+import styles from './landPageMain.module.css'
 import MainBottom from './landPageComponent/mainBottom';
 import MainTop from './landPageComponent/mainTop';
+
 
 
   function LandPageMain() {
@@ -14,8 +16,10 @@ import MainTop from './landPageComponent/mainTop';
       <Router>
       <Switch>
           <Route>
-              <MainTop />
-              <MainBottom />
+              <div className={styles.backgroundMain}>
+                <MainTop />
+                <MainBottom />
+              </div>
           </Route>
       </Switch>
   </Router>

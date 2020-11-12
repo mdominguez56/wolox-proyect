@@ -9,10 +9,6 @@ import LandPageFooter from './landPageFooter';
 import LandPageHeader from './landPageHeader';
 import LandPageMain from './landPageMain'
 
-
-
-
-
 function landPage() {
     return (
     <Router>

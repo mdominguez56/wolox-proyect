@@ -1,0 +1,7 @@
+.backgroundFooter{
+    padding: 20vw;
+    background-color: blue;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden; 
+}
