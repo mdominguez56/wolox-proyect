@@ -1,23 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import styles from './App.module.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import LandPage from './components/landPage/landPage'
 
 function App() {
   return (
-    <div className={styles.App}>
-      <header className={styles.AppHeader}>
-        <img src={logo} className={styles.AppLogo} alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route>
+            <LandPage />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
