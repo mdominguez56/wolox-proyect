@@ -5,11 +5,20 @@ import {
     Route,
     Link
   } from "react-router-dom";
+import HeaderTop from './landPageComponent/headerTop';
+import HeaderContent from './landPageComponent/headerContent';
 
 
   function LandPageHeader() {
     return (
-        <div>LAND PAGE HEADER</div>
+    <Router>
+        <Switch>
+            <Route>
+                <HeaderTop />
+                <HeaderContent />
+            </Route>
+        </Switch>
+    </Router>
         );
   }
 

@@ -5,11 +5,20 @@ import {
     Route,
     Link
   } from "react-router-dom";
+import MainBottom from './landPageComponent/mainBottom';
+import MainTop from './landPageComponent/mainTop';
 
 
   function LandPageMain() {
     return (
-        <div>LAND PAGE MAIN</div>
+      <Router>
+      <Switch>
+          <Route>
+              <MainTop />
+              <MainBottom />
+          </Route>
+      </Switch>
+  </Router>
         );
   }
 
