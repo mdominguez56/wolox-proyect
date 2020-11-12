@@ -8,6 +8,7 @@ import {
 import styles from './landPageMain.module.css'
 import MainBottom from './landPageComponent/mainBottom';
 import MainTop from './landPageComponent/mainTop';
+import MainTopRight from './landPageComponent/mainTopRight';
 
 
 
@@ -18,6 +19,9 @@ import MainTop from './landPageComponent/mainTop';
           <Route>
               <div className={styles.MainContent}>
                 <MainTop />
+                <MainTopRight />
+              </div>
+              <div>
                 <MainBottom />
               </div>
           </Route>
