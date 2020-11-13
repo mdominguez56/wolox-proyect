@@ -3,4 +3,29 @@
     background-size: cover;
     height: 100%;
     overflow: hidden; 
+    text-align: center;
 }
+
+.wordLightBlue{
+    color: lightblue;
+}
+
+.button{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+    border: 3px double blue;
+}
+
+.button:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
