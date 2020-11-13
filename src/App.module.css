@@ -1,3 +1,5 @@
 .container{
   font-family: 'Montserrat', sans-serif;
+  margin: unset;
+  width: 100%;
 }

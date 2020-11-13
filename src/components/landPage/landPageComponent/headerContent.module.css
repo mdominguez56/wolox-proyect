@@ -1,14 +1,24 @@
 .headerContentConteiner{
     display: flex;
-    text-align: center;
+    text-align: right;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 20px;
+    font-weight: 200;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 3vw;
 }
 .HeroImage{
-    width: 40vw;
+    width: 30vw;
     padding-right: 10vw;
 }
 .headerContentText{
     text-align: left;
+}
+.fontBold{
+    font-weight: 800;
+}
+.fontGreen{
+    color:#a7d627;
+    font-weight: 600;
 }
