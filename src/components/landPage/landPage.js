@@ -13,15 +13,11 @@ import styles from './landPage.module.css'
 function landPage() {
     return (
     <Router>
-        <Switch>
-            <Route>
-                <div className={styles.container}>
-                    <LandPageHeader />
-                    <LandPageMain />
-                    <LandPageFooter />
-                </div>
-            </Route>
-        </Switch>
+        <div className={styles.container}>
+            <LandPageHeader />
+            <LandPageMain />
+            <LandPageFooter />
+        </div>
     </Router>
     );
 }

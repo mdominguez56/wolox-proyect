@@ -5,16 +5,15 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import styles from './App.module.css'
 import LandPage from './components/landPage/landPage'
 
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route>
-            <LandPage />
-        </Route>
-      </Switch>
+      <div className={styles.container}>
+        <LandPage />
+      </div>
     </Router>
   );
 }
