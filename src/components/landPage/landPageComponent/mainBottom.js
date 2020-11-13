@@ -10,12 +10,12 @@ import Brain from '../../../assets/Ic_brain.svg'
 
 function MainBottom() {
     return (
-        <div>
-          <h3>Entre los benificios que ofrecemos se encuentan </h3>
+        <div className={styles.container}>
+          <h3>Entre los benificios que ofrecemos se encuentan <span className={styles.fontLightBlue}>;)</span> </h3>
         <div className={styles.imgContainer}>
             <div>
               <img src={HourImage} alt="Hour" />
-              <p>Flexibilidad horaria</p>
+              <p>Flexibilidad <br/> horaria</p>
             </div>
             <div>
               <img src={HomeOffice} alt="Home-office" />
@@ -23,19 +23,19 @@ function MainBottom() {
             </div>
             <div>
               <img src={Workshops} alt="Workshops" />
-              <p>Capacitaciones y workshops</p>
+              <p>Capacitaciones <br/> y workshops</p>
             </div>
             <div>
               <img src={Snacks} alt="Snacks" />
-              <p>Snacks, frutas y bebidas gratis</p>
+              <p>Snacks, frutas <br/> y bebidas gratis</p>
             </div>
             <div>
               <img src={RemoteWeek} alt="Romote" />
-              <p>Semana remota</p>
+              <p>Semana <br/> remota</p>
             </div>
             <div>
               <img src={Brain} alt="Romote" />
-              <p>Trabajar en las ultimas tecnologias</p>
+              <p>Trabajar <br/> en las ultimas <br/> tecnologias</p>
             </div>
         </div>
         </div>

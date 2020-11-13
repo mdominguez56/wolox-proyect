@@ -1,5 +1,23 @@
+.container{
+    text-align: center;
+    padding-top: 6vw;
+}
+.container h3{
+    font-size: 2vw;
+    font-weight: 300;
+}
 .imgContainer{
     display: flex;
-    justify-content: space-between;
-    text-align: center;
+    justify-content: space-around;
+    padding-top: 6vw;
 }
+.imgContainer img{
+    width: 5vw;
+    height: 5vw;
+}
+.fontLightBlue{
+    color: #8cc6e1;
+}
+
+
+
