@@ -5,10 +5,14 @@
     overflow: hidden; 
     text-align: center;
     background-attachment: scroll;
+    margin-top: 8vw;
+    font-size: 2vw;
 }
-
+.backgroundFooter h4{
+    font-weight: 300;
+}
 .wordLightBlue{
-    color: lightblue;
+    color: #34abe0;
 }
 
 .button{
@@ -23,9 +27,12 @@
     background-color: #2aa7df;
     border-radius: 15px;
     border: #2aa7df;
+    margin-bottom: 10vw;
 }
-
 .button:hover{
     opacity: 0.6;
     text-decoration: none;
-  }
+}
+.woloxLogo{
+    margin-bottom: 4vw;
+}

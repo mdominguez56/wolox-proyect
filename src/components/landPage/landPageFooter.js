@@ -18,7 +18,7 @@ import {
             <button className={styles.button}>Conocer mas</button>
           </div>
           <div>
-            <img src={WoloxLogo} alt="wolox-logo" />
+            <img src={WoloxLogo} alt="wolox-logo" className={styles.woloxLogo} />
           </div>
           
         </div>
