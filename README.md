@@ -10,6 +10,7 @@
  - React-router-dom
  - React animations (I use in this case react-spring)
  - React linter (I use ES-lint)
+ - Heroku cloud (in developing)
 
 
  Thank you for giving me the opportunity to participate in the selection process!
