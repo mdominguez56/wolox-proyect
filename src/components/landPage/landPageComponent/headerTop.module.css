@@ -13,3 +13,21 @@
     text-decoration: none;
     color: #000;
 }
+.button{
+    text-decoration: none;
+    padding: 1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    font-size: 1vw;
+    font-style: bold;
+    font-weight: 600;
+    color: #2aa7df;
+    background-color: white ;
+    border-radius: 15px ;
+    border:solid  #2aa7df;
+    
+}
+.button:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }

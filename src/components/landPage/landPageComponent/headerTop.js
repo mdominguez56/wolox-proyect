@@ -15,7 +15,9 @@ function HeaderTop() {
           <nav className={styles.navLink}>
             <Link to="/">Inicio</Link>
             <Link to="/">Beneficios</Link>
-            <Link to="/">Login</Link> 
+            <Link to="/" >
+              <button className={styles.button}>Login</button>
+            </Link> 
           </nav>
         </div>
   );

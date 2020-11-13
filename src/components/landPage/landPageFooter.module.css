@@ -12,17 +12,16 @@
 
 .button{
     text-decoration: none;
-    padding: 3px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: helvetica;
-    font-weight: 300;
-    font-size: 25px;
-    font-style: italic;
+    padding: 1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    font-size: 1vw;
+    font-style: bold;
+    font-weight: 600;
     color: white;
-    background-color: blue;
+    background-color: #2aa7df;
     border-radius: 15px;
-    border: 3px double blue;
+    border: #2aa7df;
 }
 
 .button:hover{
