@@ -7,13 +7,20 @@ import {
 } from "react-router-dom";
 import styles from './App.module.css'
 import LandPage from './components/landPage/landPage'
+import Listpage from './components/listPage/listPage'
+import Registerpage from './components/registerPage/registerPage'
+
 
 function App() {
   return (
     <Router>
-      <div className={styles.container}>
-        <LandPage />
-      </div>
+      <Switch>
+          <Route path="/listpage" component={Listpage} />
+          <Route path="/registerpage" component={Registerpage} />
+          <div className={styles.container}>
+            <Route path="/" component={LandPage} />
+          </div>
+      </Switch>
     </Router>
   );
 }

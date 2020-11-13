@@ -15,7 +15,9 @@ import {
           <div>
             <h3>Gracias por <span className={styles.wordLightBlue}>completar el ejercicio</span></h3>
             <h4>Te invitamos a ver mas informacion</h4>
-            <button className={styles.button}>Conocer mas</button>
+            <Link to='https://www.wolox.com.ar/'>
+              <button className={styles.button}>Conocer mas</button>
+            </Link>
           </div>
           <div>
             <img src={WoloxLogo} alt="wolox-logo" className={styles.woloxLogo} />

@@ -17,7 +17,9 @@ function MainTop() {
               <img src={twIcon} alt="tw-icon" />
               <p>©Wolox</p>
             </div>
-            <Link><button className={styles.button}>Siguenos</button></Link>
+            <Link to='https://twitter.com/Wolox'>
+            <button className={styles.button}>Siguenos</button>
+            </Link>
           </div>
         </div>
         );
