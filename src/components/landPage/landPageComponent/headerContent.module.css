@@ -9,8 +9,8 @@
     font-size: 3vw;
 }
 .HeroImage{
-    width: 30vw;
-    padding-right: 10vw;
+    width: 25vw;
+    padding-right: 0vw;
 }
 .headerContentText{
     text-align: left;
@@ -21,4 +21,13 @@
 .fontGreen{
     color:#a7d627;
     font-weight: 600;
+}
+@media(max-width: 768px){
+    .headerContentConteiner{
+        flex-direction: column;
+        width: 100%;
+    }
+    .headerContentText{
+        font-size: 6vw;
+    }
 }

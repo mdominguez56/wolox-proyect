@@ -42,4 +42,10 @@
 .button:hover{
     opacity: 0.6;
     text-decoration: none;
-  }
+}
+
+@media(max-width: 768px){
+    .mainTopContainer{
+        width: 100%;
+    }
+}

@@ -18,6 +18,12 @@
 .fontLightBlue{
     color: #8cc6e1;
 }
-
+@media(max-width: 768px){
+    .imgContainer{
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
 
 

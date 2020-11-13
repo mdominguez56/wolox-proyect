@@ -36,3 +36,8 @@
 .woloxLogo{
     margin-bottom: 4vw;
 }
+@media(max-width: 768px){
+    .backgroundFooter{
+        font-size: 3vw;
+    }
+}

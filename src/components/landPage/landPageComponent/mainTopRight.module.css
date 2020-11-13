@@ -13,4 +13,9 @@ color:#59b9e5;
 .fontGreen{
 color: #a7ce44;
 }
+@media(max-width: 768px){
+    .mainTopRightContainer{
+        width: 100%;
+    }
+}
 
