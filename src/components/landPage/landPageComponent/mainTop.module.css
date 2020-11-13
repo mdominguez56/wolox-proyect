@@ -3,8 +3,43 @@
     height: 30vw;
     display: flex;
     flex-direction: column;
-    text-align: center;
     background: url('../../../assets/img_woloxer.png') no-repeat center center fixed;
     background-size: cover;
+    background-attachment: scroll;
     text-align: center;
+    justify-content: space-evenly;
 }
+.mainTopContainer h2{
+    font-size: 4vw;
+}
+.fontGreen{
+    color: #90c602;
+}
+.fontLightBlue{
+    color: #079acd;
+}
+.displayFlex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.displayFlex p{
+    color: white;
+}
+.button{
+    text-decoration: none;
+    padding: 1vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: 1vw;
+    font-style: bold;
+    font-weight: 400;
+    color: white;
+    background-color:  Transparent;
+    border-radius: 15px ;
+    border:solid  #2aa7df;
+}
+.button:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }

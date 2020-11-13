@@ -10,7 +10,7 @@ import styles from './mainTopRight.module.css'
 function MainTopRight() {
     return (
         <div className={styles.mainTopRightContainer}>
-          <h2>Trabajamos para convertir ideas en productos</h2>
+          <h2>Trabajamos para <br/> <span className={styles.fontLightBlue}>convertir</span> <span className={styles.fontGreen}>ideas</span> en <br/> productos</h2>
         </div>
         );
   }

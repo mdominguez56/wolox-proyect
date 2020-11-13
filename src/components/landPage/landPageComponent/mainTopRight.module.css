@@ -1,5 +1,16 @@
 .mainTopRightContainer{
-    background-color: grey;
-    text-align: center;
-    
+    width: 35vw;
+    height: 22,2vw;
+    background-color: #f2f5fa;
+    padding-top: 115px;
+    text-align: center; 
+    font-size: 1.6vw;
 }
+
+.fontLightBlue{
+color:#59b9e5;
+}
+.fontGreen{
+color: #a7ce44;
+}
+

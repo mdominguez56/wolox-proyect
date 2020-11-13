@@ -6,13 +6,19 @@ import {
   Link
 } from "react-router-dom";
 import styles from './mainTop.module.css'
+import twIcon from '../../../assets/twIcon.png'
 
 function MainTop() {
     return (
         <div className={styles.mainTopContainer}>
-          <h2>350 + Woloxers</h2>
-          <Link> @Wolox</Link>
-          <button>Siguenos</button>
+          <h2><span className={styles.fontGreen}>350 +</span><span className={styles.fontLightBlue}> Woloxers</span></h2>
+          <div>
+            <div className={styles.displayFlex}>
+              <img src={twIcon} alt="tw-icon" />
+              <p>©Wolox</p>
+            </div>
+            <Link><button className={styles.button}>Siguenos</button></Link>
+          </div>
         </div>
         );
   }
